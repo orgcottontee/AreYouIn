@@ -19,6 +19,8 @@
 		DEB8F08F2BA337B700E95D06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEB8F0912BA337B900E95D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB8F0942BA337B900E95D06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEB8F09B2BA33A0F00E95D06 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DEB8F09C2BA33A2200E95D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		DEB8F08C2BA337B700E95D06 /* AreYouIn */ = {
 			isa = PBXGroup;
 			children = (
+				DEB8F09C2BA33A2200E95D06 /* Info.plist */,
 				DEB8F08D2BA337B700E95D06 /* AreYouInApp.swift */,
 				DEB8F08F2BA337B700E95D06 /* ContentView.swift */,
+				DEB8F09B2BA33A0F00E95D06 /* Config.xcconfig */,
 				DEB8F0912BA337B900E95D06 /* Assets.xcassets */,
 				DEB8F0932BA337B900E95D06 /* Preview Content */,
 			);
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		DEB8F0962BA337B900E95D06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB8F09B2BA33A0F00E95D06 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -197,7 +202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -210,6 +215,7 @@
 		};
 		DEB8F0972BA337B900E95D06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB8F09B2BA33A0F00E95D06 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -254,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = G4B5B4UZY6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AreYouIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = G4B5B4UZY6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AreYouIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
